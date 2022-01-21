@@ -45,6 +45,7 @@ section {
 }
 
 .about,
+.education,
 .services,
 .skills,
 .teams,
@@ -54,6 +55,7 @@ footer {
 }
 
 .about .about-content,
+.education .education-content,
 .services .serv-content,
 .skills .skills-content,
 .contact .contact-content {
@@ -306,6 +308,67 @@ section .title::after {
 }
 
 .about .about-content .right a:hover {
+    color: crimson;
+    background: none;
+}
+
+
+/* Education section styling */
+
+.education .title::after {
+    content: "where i studied";
+}
+
+.education .education-content .left {
+    width: 50%;
+}
+
+.education .education-content .left .LPU img {
+    height: 100px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.education .education-content .left .CLZ img {
+    height: 80px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.education .education-content .right {
+    width: 50%;
+}
+
+.education .education-content .right .text {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.education .education-content .right .text span {
+    color: crimson;
+}
+
+.education .education-content .right p {
+    text-align: justify;
+}
+
+.education .education-content .right a {
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+
+.education .education-content .right a:hover {
     color: crimson;
     background: none;
 }
@@ -674,6 +737,19 @@ footer span a:hover {
 
 /* responsive media query start */
 
+
+/*--- education ---*/
+
+@media (max-width: 1104px) {
+    .education .education-content .left img {
+        height: 350px;
+        width: 350px;
+    }
+}
+
+
+/* -- end education ---*/
+
 @media (max-width: 1104px) {
     .about .about-content .left img {
         height: 350px;
@@ -741,6 +817,17 @@ footer span a:hover {
     .about .about-content .right {
         flex: 100%;
     }
+    .education .education-content .column {
+        width: 100%;
+    }
+    .education .education-content .left {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+    .education .education-content .right {
+        flex: 100%;
+    }
     .services .serv-content .card {
         width: calc(50% - 10px);
         margin-bottom: 20px;
@@ -778,6 +865,7 @@ footer span a:hover {
         font-size: 27px;
     }
     .about .about-content .right .text,
+    .education .education-content .right .text,
     .skills .skills-content .left .text {
         font-size: 19px;
     }
