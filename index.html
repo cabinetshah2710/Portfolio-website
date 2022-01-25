@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Website</title>
+    <title>Cabinet shah Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -15,9 +15,26 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 
+    <script>
+        var myDate = new Date();
+        var hrs = myDate.getHours();
+
+        var greet;
+
+        if (hrs < 12)
+            greet = 'Good Morning';
+        else if (hrs >= 12 && hrs <= 17)
+            greet = 'Good Afternoon';
+        else if (hrs >= 17 && hrs <= 24)
+            greet = 'Good Evening';
+
+        document.getElementById('lblGreetings').innerHTML =
+            '<b>' + greet + '</b>';
+    </script>
 </head>
 
 <body>
+
     <div class="scroll-up-btn">
         <i class="fas fa-angle-up"></i>
     </div>
@@ -43,10 +60,27 @@
     </nav>
     <!-- home section start -->
 
+
     <section class="home" id="home">
         <div class="max-width">
             <div class="home-content">
-                <div class="text-1"><br><br><br><br> Hello, my name is</div>
+                <div class="text-1"><br><br><br><br>
+                    <script type="text/javascript">
+                        document.write("<center><font size=+3 style='color: white;'>");
+                        var day = new Date();
+                        var hr = day.getHours();
+                        if (hr >= 0 && hr < 12) {
+                            document.write("Good Morning!");
+                        } else if (hr == 12) {
+                            document.write("Good Noon!");
+                        } else if (hr >= 12 && hr <= 17) {
+                            document.write("Good Afternoon!");
+                        } else {
+                            document.write("Good Evening! , my name is");
+                        }
+                        document.write("</font></center>");
+                    </script>
+                </div>
                 <div class="text-2">Cabinet shah</div>
                 <div class="text-3">And I'm a <span class="typing"></span></div>
                 <a href="https://www.linkedin.com/in/cabinetshah/">Hire me</a>
@@ -304,7 +338,7 @@
                     <div class="text">My creative skills</div>
                     <p>Ability to solve for real-world problems.I can apply Data Science methodology - work with Jupyter notebooks - create Python apps - access relational databases using SQL & Python - use Python libraries to generate data visualizations
                         - perform data analysis using Pandas - construct & evaluate Machine Learning (ML) models using Scikit-learn & SciPy and apply data science & ML techniques to real location data sets.</p>
-                    <a href="#">Read more</a>
+                    <a href="https://www.credly.com/users/cabinetshah/badges">More..</a>
                 </div>
                 <div class="column right">
                     <div class="bars">
@@ -401,11 +435,11 @@
     <!-- contact section start -->
     <section class="contact" id="contact">
         <div class="max-width">
-            <h2 class="title">Contact me</h2>
+            <h2 class="title">Catch Me</h2>
             <div class="contact-content">
                 <div class="column left">
                     <div class="text">
-                        <h2><b> Get in Touch </b></h2>
+                        <h2><b> Details </b></h2>
                     </div>
 
                     <div class="icons">
