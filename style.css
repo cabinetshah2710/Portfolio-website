@@ -97,7 +97,7 @@ section .title::after {
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: crimson;
+    color: SlateGray;
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -117,7 +117,7 @@ section .title::after {
 
 .navbar.sticky {
     padding: 15px 0;
-    background: crimson;
+    background: SlateGray;
 }
 
 .navbar .max-width {
@@ -133,7 +133,7 @@ section .title::after {
 }
 
 .navbar .logo a span {
-    color: rgb(20, 220, 47);
+    color: SlateGray;
     transition: all 0.3s ease;
 }
 
@@ -156,7 +156,7 @@ section .title::after {
 }
 
 .navbar .menu li a:hover {
-    color: rgb(20, 220, 53);
+    color: SlateGray;
 }
 
 .navbar.sticky .menu li a:hover {
@@ -177,7 +177,7 @@ section .title::after {
     position: fixed;
     height: 45px;
     width: 42px;
-    background: rgb(20, 220, 47);
+    background: SlateGray;
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -242,13 +242,13 @@ section .title::after {
 }
 
 .home .home-content .text-3 span {
-    color: rgb(20, 220, 47);
+    color: SlateGray;
     font-weight: 500;
 }
 
 .home .home-content a {
     display: inline-block;
-    background: rgb(20, 220, 47);
+    background: SlateGray;
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
@@ -260,7 +260,7 @@ section .title::after {
 }
 
 .home .home-content a:hover {
-    color: crimson;
+    color: SlateGray;
     background: none;
 }
 
@@ -293,7 +293,7 @@ section .title::after {
 }
 
 .about .about-content .right .text span {
-    color: rgb(20, 220, 47);
+    color: SlateGray;
 }
 
 .about .about-content .right p {
@@ -302,7 +302,7 @@ section .title::after {
 
 .about .about-content .right a {
     display: inline-block;
-    background: rgb(20, 220, 47);
+    background: SlateGray;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
@@ -314,7 +314,7 @@ section .title::after {
 }
 
 .about .about-content .right a:hover {
-    color: crimson;
+    color: SlateGray;
     background: none;
 }
 
@@ -364,7 +364,7 @@ section .title::after {
 }
 
 .education .education-content .right .text span {
-    color: crimson;
+    color: SlateGray;
 }
 
 .education .education-content .right p {
@@ -373,19 +373,19 @@ section .title::after {
 
 .education .education-content .right a {
     display: inline-block;
-    background: crimson;
+    background: SlateGray;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid SlateGray;
     transition: all 0.3s ease;
 }
 
 .education .education-content .right a:hover {
-    color: crimson;
+    color: SlateGray;
     background: none;
 }
 
@@ -442,7 +442,7 @@ section .title::after {
 }
 
 .experience .experience-content .right .text span {
-    color: crimson;
+    color: SlateGray;
 }
 
 .experience .experience-content .right p {
@@ -451,19 +451,19 @@ section .title::after {
 
 .experience .experience-content .right a {
     display: inline-block;
-    background: crimson;
+    background: SlateGray;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid SlateGray;
     transition: all 0.3s ease;
 }
 
 .experience .experience-content .right a:hover {
-    color: crimson;
+    color: SlateGray;
     background: none;
 }
 
@@ -485,7 +485,7 @@ section .title::after {
 }
 
 .certification .certification-content .text span {
-    color: crimson;
+    color: SlateGray;
 }
 
 .certification .certification-content p {
@@ -494,19 +494,19 @@ section .title::after {
 
 .certification .certification-content a {
     display: inline-block;
-    background: crimson;
+    background: SlateGray;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid SlateGray;
     transition: all 0.3s ease;
 }
 
 .certification .certification-content a:hover {
-    color: crimson;
+    color: SlateGray;
     background: none;
 }
 
@@ -528,7 +528,7 @@ section .title::after {
 }
 
 .project .project-content .text span {
-    color: crimson;
+    color: SlateGray;
 }
 
 .project .project-content p {
@@ -537,19 +537,19 @@ section .title::after {
 
 .project .project-content a {
     display: inline-block;
-    background: crimson;
+    background: SlateGray;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid SlateGray;
     transition: all 0.3s ease;
 }
 
 .project .project-content a:hover {
-    color: crimson;
+    color: SlateGray;
     background: none;
 }
 
@@ -584,7 +584,7 @@ section .title::after {
 }
 
 .services .serv-content .card:hover {
-    background: crimson;
+    background: SlateGray;
 }
 
 .services .serv-content .card .box {
@@ -597,7 +597,7 @@ section .title::after {
 
 .services .serv-content .card i {
     font-size: 50px;
-    color: crimson;
+    color: SlateGray;
     transition: color 0.3s ease;
 }
 
@@ -634,7 +634,7 @@ section .title::after {
 
 .skills .skills-content .left a {
     display: inline-block;
-    background: rgb(20, 220, 47);
+    background: SlateGray;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
@@ -646,7 +646,7 @@ section .title::after {
 }
 
 .skills .skills-content .left a:hover {
-    color: crimson;
+    color: SlateGray;
     background: none;
 }
 
@@ -679,7 +679,7 @@ section .title::after {
     height: 100%;
     left: 0;
     top: 0;
-    background: rgb(20, 220, 47);
+    background: rgb(108, 219, 123);
 }
 
 .skills-content .right .html::before {
@@ -719,7 +719,7 @@ section .title::after {
 }
 
 .teams .carousel .card:hover {
-    background: crimson;
+    background: SlateGray;
 }
 
 .teams .carousel .card .box {
@@ -745,7 +745,7 @@ section .title::after {
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid crimson;
+    border: 5px solid SlateGray;
     transition: all 0.3s ease;
 }
 
@@ -764,7 +764,7 @@ section .title::after {
     margin: 0 5px;
     outline: none!important;
     border-radius: 50%;
-    border: 2px solid crimson!important;
+    border: 2px solid SlateGray !important;
     transition: all 0.3s ease;
 }
 
@@ -775,7 +775,7 @@ section .title::after {
 
 .owl-dot.active,
 .owl-dot:hover {
-    background: crimson!important;
+    background: SlateGray !important;
 }
 
 
@@ -815,7 +815,7 @@ section .title::after {
 
 .contact .contact-content .row i {
     font-size: 25px;
-    color: rgb(20, 220, 47);
+    color: SlateGray;
 }
 
 .contact .contact-content .info .head {
@@ -885,13 +885,13 @@ section .title::after {
     border-radius: 6px;
     cursor: pointer;
     flex-wrap: nowrap;
-    background: rgb(20, 220, 47);
+    background: SlateGray;
     border: 2px solid #111;
     transition: all 0.3s ease;
 }
 
 .right form .button-area button:hover {
-    color: crimson;
+    color: SlateGray;
     background: none;
 }
 
@@ -906,7 +906,7 @@ footer {
 }
 
 footer span a {
-    color: rgb(20, 220, 47);
+    color: SlateGray;
     text-decoration: none;
 }
 
