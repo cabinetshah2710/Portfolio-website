@@ -4,4 +4,5 @@ View of cover page
 
 https://cabinetshah2710.github.io/Portfolio-website/
 
-https://github.com/cabinetshah2710/Portfolio-website/blob/master/images/lpu.jpg
+![image](https://user-images.githubusercontent.com/53578487/151112571-29aeccee-5040-45a6-a9f2-055e17d2d3a9.png)
+
