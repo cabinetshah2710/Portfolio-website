@@ -1,35 +1,38 @@
 # Portfolio-website 
 ![image](https://user-images.githubusercontent.com/53578487/151111679-53f9d4ad-3348-4679-a914-522ee802e893.png)
 View of cover page
+https://www.cabinetkumarshah.com.np/
 
 https://cabinetshah2710.github.io/Portfolio-website/
 
+Home:
+https://www.cabinetkumarshah.com.np/#home
 About:
-https://cabinetshah2710.github.io/Portfolio-website/#about
+https://www.cabinetkumarshah.com.np/#about
 
 Education:
-https://cabinetshah2710.github.io/Portfolio-website/#education
+https://www.cabinetkumarshah.com.np/#education
 
 Experience:
-https://cabinetshah2710.github.io/Portfolio-website/#experience
+https://www.cabinetkumarshah.com.np/#experience
 
 certification:
-https://cabinetshah2710.github.io/Portfolio-website/#certification
+https://www.cabinetkumarshah.com.np/#certification
 
 project:
-https://cabinetshah2710.github.io/Portfolio-website/#project
+https://www.cabinetkumarshah.com.np/#project
 
 services:
-https://cabinetshah2710.github.io/Portfolio-website/#services
+https://www.cabinetkumarshah.com.np/#services
 
 skills:
-https://cabinetshah2710.github.io/Portfolio-website/#skills
+https://www.cabinetkumarshah.com.np/#skills
 
 Teams:
-https://cabinetshah2710.github.io/Portfolio-website/#teams
+https://www.cabinetkumarshah.com.np/#teams
 
 Contact:
-https://cabinetshah2710.github.io/Portfolio-website/#contact
+https://www.cabinetkumarshah.com.np/#contact
 
 
 ![image](https://user-images.githubusercontent.com/53578487/151112571-29aeccee-5040-45a6-a9f2-055e17d2d3a9.png)
