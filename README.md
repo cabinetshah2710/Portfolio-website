@@ -1,5 +1,5 @@
 # Cabinetshah Portfolio-website 
-![image](https://user-images.githubusercontent.com/53578487/151111679-53f9d4ad-3348-4679-a914-522ee802e893.png)
+![image](https://user-images.githubusercontent.com/53578487/154655346-b35fd067-e0bb-4f4e-9a84-2ba1a616d152.png)
 View of cover page
 
 https://www.cabinetkumarshah.com.np/
